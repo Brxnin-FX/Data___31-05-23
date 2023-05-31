@@ -1,0 +1,33 @@
+@media only screen and (max-width: 717px) {
+	#openMenu, #closeMenu {
+		display: block;
+	}
+
+	#openMenu {
+		margin-left: auto;
+	}
+
+	#closeMenu {
+		position: fixed;
+		right: 15px;
+		top: 15px;
+	}
+
+	nav {
+		position: fixed;
+		flex-direction: column;
+		width: 100vw;
+		height: 100vh;
+		background: rgba(255, 255, 255, 0.8);
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		display: none;
+		opacity: 0;
+		transition: 0.3s;
+	}
+
+	main {
+		height: calc(100vh - 330px);
+	}
+}

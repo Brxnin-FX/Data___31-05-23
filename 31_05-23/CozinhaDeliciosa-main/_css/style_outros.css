@@ -1,0 +1,169 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 1 100vw;
+	margin: 0px;
+}
+header, nav, main, aside, footer {
+	background: #ffe60097;
+	display: flex;
+	margin: 0px;
+	flex: 1 1 100vw;
+}
+
+header {
+	height: 100px;
+}
+
+header #logo {
+	display: flex;
+	flex: 0 1 200px;
+	background: #c9c9c9;
+	justify-content: center;
+	align-items: center;
+}
+
+#openMenu, #closeMenu {
+	border: none;
+	background: none;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
+	cursor: pointer;
+	display: none;
+}
+
+nav {
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+nav a {
+	margin: 15px;
+	font-size: 15pt;
+}
+aside {
+	height: 100px;
+}
+main{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+	height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    padding-top: 5%;
+}
+main>h1{
+	font-size: 22pt;
+}
+.titulo-main{
+	display: flex;
+	align-self: center;
+	flex-direction: row;
+
+}
+#titulo-escrito{
+	font-style: italic;
+	font-size: 32pt;
+	margin-right: 10%;
+	display: flex;
+	align-content: flex-start;
+}
+#video{
+	padding: 30px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	padding: 10px;
+	border-radius: 10px;
+}
+nav>a:hover{
+	background-color: white;
+}
+.rede-social{
+    height: 70px;
+    width: 70px;
+    border-radius: 400px;
+    margin-right: 20px;
+
+}
+.card-receita{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.card{
+    margin: 20px;
+	align-items: center;
+    background-color: rgb(255, 255, 255);
+	height: 450px;
+    padding: 40px 40px 0px 40px;
+    border-radius: 10px;
+}
+.card>img{
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.card>p{
+	font-size: 18pt;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#caso_especial{
+	color: white;
+}
+.titulo{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26pt;
+}
+.image{
+    height: 129px;
+    
+}
+
+img{
+	width: 206px;
+	height: 129px;
+}
+.botao{
+	display: block;
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	font-family: "montserrat";
+	margin-top: 20px;
+	margin-bottom: 10%;
+	margin: 0px 0;
+	border: 2px solid black;
+	padding: 14px 60px;
+	margin-top: 0px;
+	background-color: rgb(255, 220, 91);
+  }
+  .botao>a{
+	  padding: 20px;
+	  margin-left: -20px;
+  }
+.logo{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 30px;
+  }
