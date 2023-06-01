@@ -1,0 +1,157 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 1 100vw;
+	margin: 0px;
+}
+header, nav, main, aside, footer {
+	background: #ffe60097;
+	display: flex;
+	margin: 0px;
+	flex: 1 1 100vw;
+}
+
+header {
+	height: 100px;
+}
+
+header #logo {
+	display: flex;
+	flex: 0 1 200px;
+	background: #c9c9c9;
+	justify-content: center;
+	align-items: center;
+}
+
+#openMenu, #closeMenu {
+	border: none;
+	background: none;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
+	cursor: pointer;
+	display: none;
+}
+
+nav {
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+
+}
+nav>h1{
+    font-size: 32pt;
+    font-style: italic;
+}
+aside {
+	height: 100px;
+}
+main{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-color: white;
+}
+
+footer {
+	height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    padding-top: 5%;
+}
+main>h1{
+	font-size: 22pt;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.rede-social{
+    height: 70px;
+    width: 70px;
+    border-radius: 400px;
+    margin-right: 20px;
+
+}
+#btn-receita{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 100px;
+}
+img{
+	width: 206px;
+	height: 129px;
+}
+.botao{
+	background-color: black;
+	color: white;
+	font-size: 16pt;
+	
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 0px;
+}
+.logo{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 30px;
+  }
+  #card-login{
+
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    height: 300px;
+    font-style: italic;
+  }
+  #card-login>h1{
+    font-size: 18pt;
+  }
+  .inputs{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    
+  }
+  .inputs>input{
+    margin: 10px;
+    background-color: #ffffff24;
+    color: white;
+  }
+  .parte-baixa{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 25%;
+    color: white;
+  }
+  #botao-login{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 15px;
+    width: 90%;
+    background-color: #ffffff;
+    color: black;
+    padding-bottom: 15px;
+    border-radius: 10px;
+  }
+  
